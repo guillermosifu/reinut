@@ -1749,17 +1749,6 @@ section,
 
 }
 
-.iconw{
-  width: 120px;
-  padding: 8px;
-  transition: transform 0.5s ease-in-out;
- 
-}
-
-.iconw:hover{
-  transform: rotate(360deg);
- }
-
 .icon:hover{
 
  transform: rotate(360deg);
