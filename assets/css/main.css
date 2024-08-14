@@ -19,7 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
+  --background-color: #0c0a09; /* Background color for the entire website, including individual sections */
   --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #cda45e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -952,6 +952,14 @@ section,
   color: var(--default-color);
 }
 
+.imglogo{
+  display: flex;
+  justify-content: end;
+  border: solid red;
+  position: relative;
+  left: 200px;
+}
+
 .hero img {
   position: absolute;
   inset: 0;
@@ -1033,7 +1041,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/banner.jfif") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -1730,6 +1738,31 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: var(--accent-color);
+}
+
+
+
+.icon{
+  width: 145px;
+  padding: 10px;
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.iconw{
+  width: 120px;
+  padding: 8px;
+  transition: transform 0.5s ease-in-out;
+ 
+}
+
+.iconw:hover{
+  transform: rotate(360deg);
+ }
+
+.icon:hover{
+
+ transform: rotate(360deg);
 }
 
 /*--------------------------------------------------------------
